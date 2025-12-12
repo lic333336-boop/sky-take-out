@@ -6,3 +6,7 @@ sky:
     database: sky_take_out
     username: root
     password: 838f4fad
+
+  upload:
+    local-path: D:/Develop/sky-take-out/upload
+    url-prefix: http://localhost:8080/upload
