@@ -52,7 +52,7 @@ public class CommonController {
             return Result.success(fileUrl);
         } catch (IOException e) {
             log.error("文件上传失败", e);
-            return Result.error("文件上传失败");
+            return Result.error(MessageConstant.UPLOAD_FAILED);
         }
     }
 }
